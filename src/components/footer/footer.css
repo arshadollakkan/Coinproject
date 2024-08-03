@@ -1,0 +1,8 @@
+.last{
+    text-align: center;
+    height: 60px;
+    padding: 30px 0px 0px 0px;
+    background-color: rgba(10, 10, 123, 0.21);
+    color: aliceblue;
+    border-top: .5px solid rgba(245, 245, 245, 0.3);
+}

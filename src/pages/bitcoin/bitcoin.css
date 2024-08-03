@@ -1,0 +1,72 @@
+.spin{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    
+}
+
+.rot{
+    width: 50px;
+    height: 50px;
+    border-left: 4px solid aqua;
+    border-top: 4px solid aqua;
+    border-right: 4px solid aqua;
+    border-bottom: 4px solid white;
+    background-color: rgb(13, 13, 99);
+    animation: ratoe 1s linear .1s  infinite;
+    border-radius: 50%;
+
+}
+@keyframes ratoe{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.imgfirst{
+display: flex;
+flex-direction: column;
+
+align-items: center;
+padding: 40px 40px;
+}
+.imgfirst img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.coinchart{
+    width:800px;
+    
+    display: flex;
+    justify-content: center;
+    margin-left:23%;
+}
+.list{
+    background-color: rgba(0, 255, 255, 0.215);
+    width: 50%;
+    margin: 8px auto;
+    height: 400px;
+    padding-top: 64px;
+    border: 2px solid rgba(245, 222, 179, 0.174);
+    border-radius: 20px;
+    text-align: center;
+}
+.list ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    list-style: none;
+    justify-content: center;
+    margin: 20px 0px;
+    align-items: center;
+    
+}
